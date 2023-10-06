@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DoctorLogin]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DoctorModule(failed)">
+    <classes>
+      <class name="doctorLogin.DoctorApprovebutton">
+        <methods>
+          <include name="Approvebutton"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorApprovebutton -->
+      <class name="doctorLogin.DoctorDashboardPage">
+        <methods>
+          <include name="Detailsbuttonpage"/>
+          <include name="AppointmentInDLPage"/>
+          <include name="setup"/>
+          <include name="DoctorDashboardPage"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorDashboardPage -->
+      <class name="doctorLogin.DoctorClinicProfile">
+        <methods>
+          <include name="logoutdoctor"/>
+          <include name="ClickClinicProfile"/>
+          <include name="setup"/>
+          <include name="PerformActions"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorClinicProfile -->
+      <class name="doctorLogin.DoctorAppointmentRequest">
+        <methods>
+          <include name="rejectButton"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorAppointmentRequest -->
+      <class name="doctorLogin.DoctorAppointments">
+        <methods>
+          <include name="startandchatpage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorAppointments -->
+      <class name="doctorLogin.DoctorReportsPage">
+        <methods>
+          <include name="DoctorOverviewPage"/>
+          <include name="LoginReportsPage"/>
+          <include name="setup"/>
+          <include name="GenderDropdown"/>
+          <include name="ViewDropdown"/>
+          <include name="ConsultTypePage"/>
+          <include name="ExportPage"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorReportsPage -->
+      <class name="doctorLogin.DoctorProposeNewTime">
+        <methods>
+          <include name="ProposeNewTime"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorProposeNewTime -->
+      <class name="doctorLogin.DoctorProfile">
+        <methods>
+          <include name="Manageleavefield"/>
+          <include name="Edittiming"/>
+          <include name="LoginProfilePage"/>
+          <include name="AgainLogin"/>
+          <include name="setup"/>
+          <include name="Welcome"/>
+          <include name="EditDoctorprrofile"/>
+          <include name="LoginprofileTab"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorProfile -->
+    </classes>
+  </test> <!-- DoctorModule(failed) -->
+</suite> <!-- Failed suite [DoctorLogin] -->

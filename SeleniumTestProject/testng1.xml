@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<listeners>
+		<listener class-name="extentReportsPage.Listenersimplementation"></listener>
+	</listeners>
+  <test name="Test">
+    <classes>
+      <class name="cliniDashboard.ClinicDeleteDoctor"/>
+      <class name="cliniDashboard.ClinicApproveButton"/>
+      <class name="cliniDashboard.ClinicDoctorEditProfile"/>
+      <class name="cliniDashboard.ClinicStartButton"/>
+      <class name="cliniDashboard.ClinicAppointmentRequest"/>
+      <class name="checkingScripts.DoctorTakeAction"/>
+      <class name="cliniDashboard.ClinicAppointments"/>
+      <class name="cliniDashboard.ClinicManageDoctor"/>
+      <class name="cliniDashboard.ClinicProfilePage1"/>
+      <class name="cliniDashboard.ClinicReportsPage"/>
+      <class name="cliniDashboard.ClinicDashboard1"/>
+      <class name="cliniDashboard.ClinicProposeNewTime"/>
+      <class name="doctorLogin.DoctorReportsPage"/>
+		   <class name="doctorLogin.DoctorAppointments"/>
+      <class name="doctorLogin.DoctorProfile"/>
+       <class name="doctorLogin.DoctorEditTiming"/>
+             <class name="doctorLogin.DoctorDashboardPage"/>
+      <class name="doctorLogin.DoctorProposeNewTime"/>
+            <class name="doctorLogin.DoctorAppointmentRequest"/>
+              <class name="doctorLogin.DoctorApprovebutton"/>
+      <class name="doctorLogin.DoctorClinicProfile"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->

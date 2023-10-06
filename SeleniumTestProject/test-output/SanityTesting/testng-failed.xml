@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SanityTesting]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentReportsPage.Listenersimplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="doctorLogin.DoctorReportsPage">
+        <methods>
+          <include name="DoctorOverviewPage"/>
+          <include name="setup"/>
+          <include name="ViewDropdown"/>
+          <include name="ExportPage"/>
+          <include name="ConsultTypePage"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorReportsPage -->
+      <class name="cliniDashboard.ClinicAppointmentRequest">
+        <methods>
+          <include name="setup"/>
+          <include name="reassignButtoninclinic"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicAppointmentRequest -->
+      <class name="cliniDashboard.ClinicStartButton">
+        <methods>
+          <include name="ClickStartButton"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicStartButton -->
+      <class name="cliniDashboard.ClinicAppointments">
+        <methods>
+          <include name="setup"/>
+          <include name="AppointmentCreate"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicAppointments -->
+      <class name="cliniDashboard.ClinicApproveButton">
+        <methods>
+          <include name="ClickApproveButton"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicApproveButton -->
+      <class name="doctorLogin.DoctorClinicProfile">
+        <methods>
+          <include name="setup"/>
+          <include name="Welcome"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorClinicProfile -->
+      <class name="cliniDashboard.ClinicProfilePage1">
+        <methods>
+          <include name="EditTimingPage"/>
+          <include name="setup"/>
+          <include name="Manageleaveoption"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicProfilePage1 -->
+      <class name="cliniDashboard.ClinicReportsPage">
+        <methods>
+          <include name="ClinicOverviewDropdown"/>
+          <include name="DoctorOverviewDetails"/>
+          <include name="AppointmentPageInCR"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicReportsPage -->
+      <class name="doctorLogin.DoctorAppointments">
+        <methods>
+          <include name="startandchatpage"/>
+          <include name="createappointment"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorAppointments -->
+      <class name="doctorLogin.DoctorProposeNewTime">
+        <methods>
+          <include name="ProposeNewTime"/>
+          <include name="Welcome"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorProposeNewTime -->
+      <class name="doctorLogin.DoctorEditTiming">
+        <methods>
+          <include name="Manageleavefield"/>
+          <include name="Edittiming"/>
+          <include name="setup"/>
+          <include name="LoginprofileTab"/>
+        </methods>
+      </class> <!-- doctorLogin.DoctorEditTiming -->
+      <class name="cliniDashboard.ClinicProposeNewTime">
+        <methods>
+          <include name="ProposeNewTimePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicProposeNewTime -->
+      <class name="cliniDashboard.ClinicManageDoctor">
+        <methods>
+          <include name="setup"/>
+          <include name="AddDoctorPage"/>
+        </methods>
+      </class> <!-- cliniDashboard.ClinicManageDoctor -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SanityTesting] -->
